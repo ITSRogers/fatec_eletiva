@@ -9,7 +9,7 @@
 <body> 
 <div class="container">
 <h1>Primeiro Exemplo de Formulário</h1>
-<form method="post" action="formularioResp.php">
+<form method="post" action="formularioResp.php"> <!-- method:get para deixar explicito no url -->
 <div class="mb-3">
               <label for="nome" class="form-label">Informe o seu nome:</label>
               <input type="text" id="nome" name="nome" class="form-control" required="">

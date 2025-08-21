@@ -9,16 +9,27 @@
 <body> 
 <div class="container">
 <h1>Somatorio</h1>
-<form method="post" action="somaExResp.php">
+<form method="post">
 <div class="mb-3">
               <label for="num1" class="form-label">Digite um número:</label>
-              <input type="number" id="num1" name="numb1" class="form-control" required="">
+              <input type="number" id="num1" name="num1" class="form-control" required="">
             </div><div class="mb-3">
               <label for="num2" class="form-label">Digite um número:</label>
-              <input type="text" id="num2" name="numb2" class="form-control" required="">
+              <input type="text" id="num2" name="num2" class="form-control" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+<?php
+    if ($_SERVER['REQUEST_METHOD']=='POST')
+    {
+        $valor1 = $_POST['num1'];
+        $valor2 = $_POST['num2'];
+        $soma = $valor1 + $valor2;
+        echo "A soma dos números $valor1 e $valor2 é $soma";
+    }
+    //comentario php
+?>
+<!--comentario html-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </div>
 </body>

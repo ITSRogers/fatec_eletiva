@@ -20,7 +20,7 @@
 if($_SERVER['REQUEST_METHOD']=='POST')
 {
     $conversaoF = ($_POST['fr'] - 32) / 1.8;
-    echo "Fahrenheit: $conversaoF °";
+    echo "Celsius: $conversaoF °";
 }
 ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>

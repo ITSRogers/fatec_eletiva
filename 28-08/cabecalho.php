@@ -32,9 +32,9 @@
     Estrutura de Repetição
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdown2">
-    <li><a class="dropdown-item" href="estrutura4.php">while</a></li>
-    <li><a class="dropdown-item" href="estrutura5.php">do-while</a></li>
-    <li><a class="dropdown-item" href="estrutura6.php">for</a></li>
+    <li><a class="dropdown-item" href="#">while</a></li>
+    <li><a class="dropdown-item" href="#">do-while</a></li>
+    <li><a class="dropdown-item" href="#">for</a></li>
   </ul>
 </li>
       </ul>
@@ -42,7 +42,3 @@
   </div>
 </nav>
 <div class="container py-3">
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</body>
-</html>

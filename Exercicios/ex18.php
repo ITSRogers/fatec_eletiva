@@ -8,7 +8,7 @@
 </head>
 <body> 
 <div class="container py-3">
-<h1>Exercicio 17 - RENDIMENTO CAPITAL (JUROS SIMPLES)</h1>
+<h1>Exercicio 18 - RENDIMENTO CAPITAL (JUROS COMPOSTO)</h1>
 <form method="post">
 <div class="mb-3">
               <label for="capital" class="form-label">Insira o capital:</label>
@@ -25,8 +25,8 @@
 <?php
 if($_SERVER['REQUEST_METHOD']=='POST')
 {
-    $rendimento = $_POST['capital']+($_POST['capital'] * ($_POST['juros']/100) * $_POST['periodo']);
-    echo "Total = R$$rendimento";
+    $montante = $_POST['capital']+($_POST['capital'] * (1+($_POST['juros']/100)) ** $_POST['periodo']);
+    echo "Total = R$$montante";
 }
 ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>

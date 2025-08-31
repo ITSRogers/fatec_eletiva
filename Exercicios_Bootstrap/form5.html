@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Endereço de Cobrança</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+<h4><strong>Endereço de Cobrança</strong></h4>
+<form class="row g-3">
+    <div class="col-md-6">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Informe o nome">
+    </div>
+    <div class="col-md-6">
+        <label for="sobrenome" class="form-label">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenome" placeholder="Informe o sobrenome">
+    </div>
+    <div class="col-12">
+        <label for="usuario" class="form-label">Nome de Usuário</label>
+        <div class="input-group">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" id="usuario" placeholder="Usuário">
+        </div>
+    </div>
+    <div class="col-12">
+        <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
+        <input type="email" class="form-control" id="email" placeholder="fatec@gmail.com">
+    </div>
+    <div class="col-12">
+        <label for="endereco" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="endereco" placeholder="Rua 1, Nº 123">
+    </div>
+    <div class="col-12">
+        <label for="complemento" class="form-label">Complemento <span class="text-muted">(Opcional)</span></label>
+        <input type="text" class="form-control" id="complemento" placeholder="Apartamento, bloco, etc.">
+    </div>
+    <div class="col-md-5">
+        <label for="pais" class="form-label">País</label>
+        <select class="form-select" id="pais">
+            <option selected>Escolha...</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label for="estado" class="form-label">Estado</label>
+        <select class="form-select" id="estado">
+            <option selected>Escolha...</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label for="cep" class="form-label">CEP</label>
+        <input type="text" class="form-control" id="cep" placeholder="00000-000">
+    </div>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="p-4">
-<h4><strong>Novo Usuário</strong></h4>
-<form class="row g-3">
+<h4 style="padding-top: 50px"><strong>Novo Usuário</strong></h4>
+<form class="row g-3" style="padding-top: 30px">
     <div class="col-12">
         <label for="nome" class="form-label">Nome:</label>
         <input type="text" class="form-control" id="nome" placeholder="Informe o nome.">
@@ -46,7 +46,10 @@
         <button type="reset" class="btn btn-secondary">Cancelar</button>
     </div>
 </form>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<?php
+include('../cabecalho_nav.php');
+include('../rodape_nav.php');
+?>
+<script src="/FATEC_ELETIVA-2/https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

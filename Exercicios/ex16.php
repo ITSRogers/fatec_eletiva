@@ -6,7 +6,7 @@
 <title>Exercicio 16 - PREÇO E DESCONTO</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
-<body> 
+<body style="padding-top: 70px"> 
 <div class="container py-3">
 <h1>Exercicio 16 - PREÇO E DESCONTO</h1>
 <form method="post">
@@ -20,14 +20,16 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 <?php
+include('../cabecalho_nav.php');
 if($_SERVER['REQUEST_METHOD']=='POST')
 {
     $desconto = $_POST['preco']*($_POST['percent'] / 100);
     $valor_descontado = $_POST['preco'] - $desconto;
     echo "Desconto = R$$desconto |  Total com desconto = R$$valor_descontado";
 }
+include('../rodape_nav.php');
 ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<script src="/FATEC_ELETIVA-2/https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </div>
 </body>
 </html>

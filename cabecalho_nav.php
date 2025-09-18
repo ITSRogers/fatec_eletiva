@@ -60,6 +60,15 @@
 <li><a class="dropdown-item" href="/Exercicios/ex20.php">Exercício 20 - MÉDIA DE VELOCIDADE</a></li>
   </ul>
 </li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="dropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Lista de Exercícios 2
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdown4">
+    <li><a class="dropdown-item" href="/Exercicios - 2/ex1_2.php">Exercício 1 (LISTA 2) - MENOR VALOR/POSIÇÃO</a></li>
+  </ul>
+</li>
       </ul>
     </div>
   </div>

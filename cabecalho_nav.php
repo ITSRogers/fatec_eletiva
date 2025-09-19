@@ -66,7 +66,8 @@
     Lista de Exercícios 2
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdown4">
-    <li><a class="dropdown-item" href="/Exercicios - 2/ex1_2.php">Exercício 1 (LISTA 2) - MENOR VALOR/POSIÇÃO</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 2/ex1_2.php">Exercício 1 - MENOR VALOR/POSIÇÃO</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 2/ex2_2.php">Exercício 2 - SOMA DE VALORES IGUAIS</a></li>
   </ul>
 </li>
       </ul>

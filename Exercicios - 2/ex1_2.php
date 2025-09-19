@@ -8,7 +8,7 @@
 </head>
 <body style="padding-top: 70px"> 
 <div class="container py-3">
-<h1>Exercicio 1 (LISTA 2) - MENOR VALOR/POSIÇÃO</h1>
+<h1>Exercicio 1 - MENOR VALOR/POSIÇÃO</h1>
 <form method="post">
 <div class="mb-3">
               <label for="valor1" class="form-label">Insira o 1º valor:</label>

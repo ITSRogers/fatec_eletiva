@@ -69,6 +69,7 @@
     <li><a class="dropdown-item" href="/Exercicios - 2/ex1_2.php">Exercício 1 - MENOR VALOR/POSIÇÃO</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 2/ex2_2.php">Exercício 2 - SOMA DE VALORES IGUAIS</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 2/ex3_2.php">Exercicio 3 - VALORES {A} E {B}</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 2/ex4_2.php">Exercicio 4 - REAJUSTE > R$100,00</a></li>
   </ul>
 </li>
       </ul>

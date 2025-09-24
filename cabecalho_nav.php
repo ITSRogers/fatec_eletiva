@@ -75,6 +75,7 @@
     <li><a class="dropdown-item" href="/Exercicios - 2/ex7_2.php">Exercicio 7 - LOOP SOMA</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 2/ex8_2.php">Exercicio 8 - LOOP DO-WHILE</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 2/ex9_2.php">Exercicio 9 - LOOP FATORIAL</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 2/ex10_2.php">Exercicio 10 - LOOP TABUADA</a></li>
   </ul>
 </li>
       </ul>

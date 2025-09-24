@@ -85,6 +85,7 @@
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdown5">
     <li><a class="dropdown-item" href="/Exercicios - 3/ex1_3.php">Exercício 1 - CONTAGEM CARACTERE</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 3/ex2_3.php">Exercício 2 - MAIÚSCULO/MINÚSCULO</a></li>
   </ul>
 </li>
       </ul>

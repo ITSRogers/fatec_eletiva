@@ -78,6 +78,15 @@
     <li><a class="dropdown-item" href="/Exercicios - 2/ex10_2.php">Exercicio 10 - LOOP TABUADA</a></li>
   </ul>
 </li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="dropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Lista de Exercícios 3
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdown5">
+    <li><a class="dropdown-item" href="/Exercicios - 3/ex1_3.php">Exercício 1 - CONTAGEM CARACTERE</a></li>
+  </ul>
+</li>
       </ul>
     </div>
   </div>

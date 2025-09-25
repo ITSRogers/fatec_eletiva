@@ -89,6 +89,7 @@
     <li><a class="dropdown-item" href="/Exercicios - 3/ex3_3.php">Exercício 3 - VERIFICAÇÃO DE PALAVRAS</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 3/ex4_3.php">Exercício 4 - VERIFICAÇÃO DE DATA</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 3/ex5_3.php">Exercício 5 - RAIZ QUADRADA</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 3/ex6_3.php">Exercício 6 - ARREDONDANDO</a></li>
   </ul>
 </li>
       </ul>

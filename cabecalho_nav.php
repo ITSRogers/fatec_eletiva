@@ -87,6 +87,7 @@
     <li><a class="dropdown-item" href="/Exercicios - 3/ex1_3.php">Exercício 1 - CONTAGEM CARACTERE</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 3/ex2_3.php">Exercício 2 - MAIÚSCULO/MINÚSCULO</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 3/ex3_3.php">Exercício 3 - VERIFICAÇÃO DE PALAVRAS</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 3/ex4_3.php">Exercício 4 - VERIFICAÇÃO DE DATA</a></li>
   </ul>
 </li>
       </ul>

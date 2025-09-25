@@ -88,6 +88,15 @@
     <li><a class="dropdown-item" href="/Exercicios - 3/ex6_3.php">Exercício 6 - ARREDONDANDO</a></li>
   </ul>
 </li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="dropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Lista de Exercícios 4
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdown6">
+    <li><a class="dropdown-item" href="/Exercicios - 4/ex1_4.php">Exercício 1 - CONTATOS</a></li>
+  </ul>
+</li>
       </ul>
     </div>
   </div>

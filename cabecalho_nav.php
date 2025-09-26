@@ -97,6 +97,8 @@
     <li><a class="dropdown-item" href="/Exercicios - 4/ex1_4.php">Exercício 1 - CONTATOS</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 4/ex2_4.php">Exercício 2 - ALUNOS/MEDIAS</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 4/ex3_4.php">Exercício 3 - PRODUTOS</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 4/ex4_4.php">Exercício 4 - IMPOSTO</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 4/ex5_4.php">Exercício 5 - LIVROS</a></li>
   </ul>
 </li>
       </ul>

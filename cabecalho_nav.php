@@ -96,6 +96,7 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown6">
     <li><a class="dropdown-item" href="/Exercicios - 4/ex1_4.php">Exercício 1 - CONTATOS</a></li>
     <li><a class="dropdown-item" href="/Exercicios - 4/ex2_4.php">Exercício 2 - ALUNOS/MEDIAS</a></li>
+    <li><a class="dropdown-item" href="/Exercicios - 4/ex3_4.php">Exercício 3 - PRODUTOS</a></li>
   </ul>
 </li>
       </ul>

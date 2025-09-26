@@ -10,7 +10,7 @@
 <div class="container py-3">
 <h1>Exercicio 2 - ALUNO/MEDIA</h1>
 <form method="post">
-    <?php for ($i = 1; $i <= 3; $i++): ?>
+    <?php for ($i = 1; $i <= 5; $i++): ?>
 <div class="mb-3">
             <legend>Aluno <?php echo $i; ?></legend>
               <label for="nome" class="form-label">Nome:</label>

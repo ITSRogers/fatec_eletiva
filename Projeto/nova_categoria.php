@@ -15,6 +15,7 @@
         }
     }
 ?>
+<div class="container mt-4">
 <h1>Nova Categoria</h1>
 <form method="post">
 <div class="mb-3">
@@ -23,6 +24,7 @@
     </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+</div>
 <?php
     require("rodape.php");
 ?>

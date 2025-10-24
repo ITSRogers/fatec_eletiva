@@ -31,10 +31,13 @@
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdown2">
     <li><a class="dropdown-item" href="categorias.php">Categorias de Produtos</a></li>
-<li><a class="dropdown-item" href="#">Produtos</a></li>
+<li><a class="dropdown-item" href="produtos.php">Produtos</a></li>
   </ul>
 </li>
       </ul>
+      <div class="d-flex ms-auto">
+        <a href="logout.php" class="btn btn-outline-light btn-sm">Sair</a>
+      </div>
     </div>
   </div>
 </nav>

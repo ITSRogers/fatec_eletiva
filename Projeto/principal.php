@@ -3,7 +3,6 @@
 ?>
 <div class="container py-3">
     <h1>Seja bem vindo(a) <?= $_SESSION['nome']?></h1>
-    <h6><a href="logout.php">Sair</a></h6>
 <?php
     require("rodape.php");
 ?>
